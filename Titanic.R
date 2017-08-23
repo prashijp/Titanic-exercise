@@ -1,5 +1,5 @@
 # Load the titanic_clean.csv from Project-2
-data_dir <- "/Users/jeevarehakrishnaraj/Desktop/Springboard/Project 3"
+data_dir <- "https://github.com/prashijp/Data-Wrangling-Exercise-2-Dealing-with-missing-values"
 titanic <- read.csv(file.path(data_dir,"titanic_clean.csv"))
 library(dplyr)
 library(dplyr)

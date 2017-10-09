@@ -96,7 +96,9 @@ ggplot(titanic, aes(x = pclass, fill = sex)) +
   facet_grid(".~ survived")
 ```
 
-![](Titanic_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png) \#\#\#\# 4 - Define an object for position jitterdodge, to use below
+![](Titanic_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-6-1.png) 
+
+#### 4 - Define an object for position jitterdodge, to use below
 
 ``` r
 posn.jd <- position_jitterdodge(0.5, 0, 0.6)

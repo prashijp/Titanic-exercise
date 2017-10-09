@@ -109,7 +109,7 @@ posn.jd <- position_jitterdodge(0.5, 0, 0.6)
 ``` r
 ggplot(titanic, aes(x = pclass, y = age, col = sex)) +
   geom_jitter(size = 3, alpha = 0.5, position = posn.jd) +
-  facet_grid(". ~ survived")
+  facet_grid(. ~ survived)
 ```
 
 ![](Titanic_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-8-1.png)

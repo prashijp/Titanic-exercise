@@ -70,7 +70,7 @@ str(titanic)
     ##  $ home.dest       : Factor w/ 370 levels "","?Havana, Cuba",..: 310 232 232 232 232 238 163 25 23 230 ...
     ##  $ has_cabin_number: int  1 1 1 1 1 1 1 1 1 0 ...
 
-##### The last passanger had missing information hence it is excluded from the data
+##### The passenger with missing information is excluded from the dataset
 
 ``` r
 titanic <- titanic %>% mutate(name = ifelse(name == '','Missing',name))
